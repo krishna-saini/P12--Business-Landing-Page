@@ -1,0 +1,203 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  background-color: #636c79;
+}
+
+.logo {
+  height: 4.2rem;
+  /* color: #fff; */
+}
+/* NAVIGATION */
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  border-bottom: 2px solid;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  background-color: #636c79;
+  padding: 4.8rem 4.8rem;
+}
+
+.hero-left img {
+  height: 400px;
+}
+.hero-right h1 {
+  color: #fff;
+}
+
+.hero-right p {
+  color: #fff;
+}
+
+/* Form element  */
+.input-form {
+  position: relative;
+}
+.input-form input {
+  height: 7rem;
+  width: 45rem;
+  padding-left: 4rem;
+}
+input:focus {
+  outline: none;
+}
+.input-form ion-icon {
+  position: absolute;
+  font-size: 20px;
+  left: 15px;
+  top: 25px;
+}
+
+.input-form a {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
+
+/**************************/
+/* MID SECTION */
+/**************************/
+
+.mid-section {
+  padding: 9.6rem 0;
+}
+
+.mid-section div h2 {
+  padding: 0 25%;
+}
+
+.statistics {
+  justify-items: center;
+}
+
+.statistics div span {
+  font-size: 3.4rem;
+  margin-left: 20px;
+}
+.mid-secion-image {
+  text-align: center;
+}
+.mid-secion-image img {
+  height: 600px;
+}
+
+/**************************/
+/* Services SECTION */
+/**************************/
+.section-services {
+  padding: 4.8rem 0 4.8rem 0;
+}
+
+.section-services .container:first-child h2 {
+  padding: 0 32%;
+}
+
+.step-img-box {
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.step-img-box img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+/* .services .step-img-box:first-child img {
+  right: 18rem;
+} */
+
+/**************************/
+/* Team Intro SECTION */
+/**************************/
+.section-team-intro {
+  padding: 9.6rem 0;
+}
+
+.section-team-intro div:first-child h2 {
+  padding-right: 20%;
+}
+
+.team img {
+  height: 300px;
+}
+
+.more-team {
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+  padding: 9.6rem 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-top {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 40px;
+}
+
+.footer-bottom {
+  padding-top: 50px;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.footer-bottom div ul {
+  flex-direction: column;
+}
+
+.footer-bottom div ul li a {
+  font-size: 1rem;
+}
