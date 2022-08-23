@@ -39,17 +39,37 @@
   border-bottom: 2px solid;
 }
 
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #eee;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
 
 .section-hero {
   background-color: #636c79;
-  padding: 4.8rem 4.8rem;
+  padding: 9.6rem 0;
+}
+.hero{
+  padding: 0 3.2rem;
+  max-width: 130rem;
 }
 
 .hero-left img {
-  height: 400px;
+  width: 100%;
 }
 .hero-right h1 {
   color: #fff;
@@ -65,7 +85,7 @@
 }
 .input-form input {
   height: 7rem;
-  width: 45rem;
+  width: 90%;
   padding-left: 4rem;
 }
 input:focus {
@@ -78,10 +98,11 @@ input:focus {
   top: 25px;
 }
 
-.input-form a {
+.input-form .btn {
   position: absolute;
-  right: 1.5rem;
+  right: 7.5rem;
   top: 1rem;
+  
 }
 
 /**************************/
@@ -92,9 +113,7 @@ input:focus {
   padding: 9.6rem 0;
 }
 
-.mid-section div h2 {
-  padding: 0 25%;
-}
+
 
 .statistics {
   justify-items: center;
@@ -108,7 +127,8 @@ input:focus {
   text-align: center;
 }
 .mid-secion-image img {
-  height: 600px;
+  height: 100%;
+  width:100%;
 }
 
 /**************************/
@@ -119,20 +139,35 @@ input:focus {
 }
 
 .section-services .container:first-child h2 {
-  padding: 0 32%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
+.step-text-box:nth-child(4){
+  width:46rem;
+}
+
+.services{
+  margin-top:4rem;
+}
 .step-img-box {
-  height: 40rem;
-  overflow: hidden;
-  position: relative;
+  
 }
 
 .step-img-box img {
-  width: 100%;
-  height: auto;
-  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+ 
 }
+.step-img-box:nth-child(2) img{
+  object-position: right;
+}
+
+.step-img-box:nth-child(3) img{
+  object-position: top;
+}
+
 
 /* .services .step-img-box:first-child img {
   right: 18rem;
@@ -144,22 +179,37 @@ input:focus {
 .section-team-intro {
   padding: 9.6rem 0;
 }
-
-.section-team-intro div:first-child h2 {
-  padding-right: 20%;
+.intro-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+  margin-bottom: 2.8rem;
+  
 }
+
+.intro-header h2{
+  width: 50%;
+}
+.intro-header p{
+  width: 80%;
+}
+
 
 .team img {
-  height: 300px;
+  width: 90%;
+  height: 30rem;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 1rem;;
 }
-
+.team p{
+  width: 90%;
+}
 .more-team {
   text-align: center;
 }
 
 .team-container {
-  display: flex;
-  justify-content: space-around;
+  
 }
 
 /**************************/

@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business Landing Page</title>
+    <!-- linking css  -->
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
-
+    <link rel="stylesheet" href="./css/queries.css">
+<!-- linking icons pack  -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -16,7 +18,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
+<!-- linking google fonts RUbik  -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
@@ -24,11 +26,14 @@
     />
   </head>
   <body>
+    <!-- header section  -->
     <header class="header">
+      <!-- logo  -->
       <a href="#">
-        <img src="./img/Logo.png" alt="logo image" class="logo" />
+        <img src="./img/white-logo.png" alt="logo image" class="logo" />
       </a>
-      <nav>
+      <!-- menu items  -->
+      <nav   class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">Home</a></li>
           <li><a class="main-nav-link" href="#">About Us</a></li>
@@ -41,10 +46,16 @@
           </li>
         </ul>
       </nav>
+      <!-- mobile menu hamburger icon    -->
+      <button  class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
+      <!-- HERO SECTION    -->
       <section class="section-hero">
-        <div class="container grid grid--2-cols">
+        <div class="hero grid grid--2-cols">
           <div class="hero-left">
             <img src="./img/pexels-fauxels-3183197.jpg" alt=""  />
           </div>
@@ -67,7 +78,7 @@
           </div>
         </div>
       </section>
-
+          <!-- mid section  -->
       <section class="mid-section">
         <div class="container">
           <h2 class="heading-secondary center-text">
@@ -100,7 +111,7 @@
           </div>
         </div>
       </section>
-
+        <!-- services section  -->
       <section class="section-services">
         <div class="container">
           <h2 class="heading-secondary center-text">We have made your care easy for you</h2>
@@ -164,9 +175,9 @@
           </div>
         </div>
       </section>
-
+       <!-- team intro section  -->
       <section class="section-team-intro">
-        <div class="container grid grid--2-cols">
+        <div class="container intro-header">
           <h2 class="heading-secondary">Meet our great Creative Team</h2>
           <p class="description">
             Our Journey began with a simple idea make a simple journey make the
@@ -174,7 +185,7 @@
             keen transform.
           </p>
         </div>
-        <div class="container grid grid--3-cols ">
+        <div class="team-container container grid grid--3-cols ">
           <div class="team">
             <img
               src="./img/pexels-mikhail-nilov-8937870.jpg"
