@@ -1,4 +1,4 @@
-# Headphone Prdouct Home Page
+# Business Landing Page
 This is a solution to the challenge no. 12 given in Full Stack Web development bootcamp by [Hitest Chowdhary](https://www.linkedin.com/in/hiteshchoudhary/?originalSubdomain=in)
 
 ## Table of contents
